@@ -2,9 +2,9 @@
   "name": "device-hardware-diagnostic",
   "version": "1.0.0",
   "description": "Advanced real-time mobile hardware and storage diagnostic tool",
-  "main": "server3.js",
+  "main": "mobile.js",
   "scripts": {
-    "start": "node server3.js"
+    "start": "node mobile.js"
   },
   "dependencies": {
     "express": "^4.19.2",
