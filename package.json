@@ -1,18 +1,15 @@
 {
-  "name": "device-hardware-diagnostic",
+  "name": "device-info-web",
   "version": "1.0.0",
-  "description": "Advanced real-time mobile hardware and storage diagnostic tool",
+  "description": "Dynamic web scanner to display remote device specifications via browser runtime.",
   "main": "mobile.js",
   "scripts": {
     "start": "node mobile.js"
   },
-  "dependencies": {
-    "express": "^4.19.2",
-    "ua-parser-js": "^1.0.38"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
